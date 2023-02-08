@@ -1,9 +1,10 @@
 import Default from '@/layout/Default'
 
-export default function Contact() {
+export default function CaseStudy() {
   return (
     <>
-      <Default>contact page
+      <Default>
+        Case Study page
       </Default>
     </>
   )
