@@ -1,0 +1,20 @@
+// Mixin - Font
+
+@mixin font($font-family,$font-size,$font-weight,$line-height) {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+}
+
+// Mixin - Padding
+
+@mixin padding($p-top,$p-right,$p-bottom,$p-left) {
+    padding: $p-top $p-right $p-bottom $p-left;
+}
+
+// Mixin - Margin
+
+@mixin margin($m-top,$m-right,$m-bottom,$m-left) {
+    margin: $m-top $m-right $m-bottom $m-left;
+}

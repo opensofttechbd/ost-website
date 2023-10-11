@@ -1,0 +1,27 @@
+.introduction {
+    @include padding(60px,0px,60px,0px);
+    &__content {
+        h3 {
+            @include font($base-font,$heading-4,$font-weight-3,33.6px);
+            margin-bottom: 24px;
+        }
+    }
+    ul li {
+        @include font($base-font,17px,$font-weight-1,30.8px);
+        color: $black-900;	
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }    
+}
+
+// Media Queries
+
+$max-width: 767px;
+
+@media (max-width: $max-width) {
+    .introduction {
+        @include padding(35px,0px,35px,0px);
+    }
+}

@@ -1,0 +1,149 @@
+.project {
+    padding-bottom: 150px;
+    &__inner {
+        margin-top: 80px;
+        &--info {
+            margin-bottom: 30px;
+            .list-inline-item:not(:last-child) {
+                margin-right: 20px;
+            }
+            h3 {
+                @include font($base-font,$base-font-size,$font-weight-2,20px);
+                letter-spacing: 0.4px;
+                color: #5A5A67;
+                margin-bottom: 10px;
+            }
+            h4 {
+                @include font($base-font,14px,$font-weight-2,17.5px);
+                letter-spacing: 0.4px;
+                color: #212833;
+                margin-bottom: 10px;
+            }            
+        }
+        &--details {
+            h2 {
+                @include font($base-font,$heading-1,$font-weight-3,67.2px);
+                color: $black-1000;
+                margin-bottom: 30px;
+            }
+            p {
+                @include font($base-font,18px,$font-weight-1,30px);
+                color: $black-900;
+            }
+        }  
+        &--block {
+            margin-top: 70px;
+        } 
+        &--steps {
+            h4 {
+                @include font($base-font,24px,$font-weight-3,30px);
+                color: $black-1000;
+                margin-bottom: 20px;
+            }
+            p {
+                @include font($base-font,18px,$font-weight-1,30px);
+                color: $black-900;
+            }
+
+        }
+        &--gallery {
+            margin-top: 70px;
+            .lb-item {
+                border-top: 10px solid #fff;
+                border-right: 10px solid #fff;
+            }
+            .lb-modal {
+                .lb-modal-close {
+                    background: transparent !important;
+                    border: transparent !important;
+                }
+                .btn {
+                    border-radius: 2px !important;
+                }
+                .btn:hover {
+                    background: $secondary-1 !important;
+                    border-radius: 2px !important;
+                }
+            }
+        }
+    }
+}
+
+// Media Queries: 992 +
+
+$min-width-992: 992px;
+
+@media (min-width: $min-width-992) {
+    .project {
+        &__inner {
+            &--gallery {
+                .h-lg-600 {
+                    height: 45rem !important;
+                }
+            }
+        }
+    }    
+}
+
+// Media Queries: 768px - 991px
+
+$min-width-768: 768px;
+$max-width-991: 991px;
+
+@media (min-width: $min-width-768) and (max-width: $max-width-991) {
+    .project {
+        padding-bottom: 70px;
+        &__inner {
+            margin-top: 70px;
+            &--block {
+                margin-top: 35px;
+            }
+            &--details {
+                h2 {
+                    @include font($base-font,45px,$font-weight-3,50px);
+                }
+            }
+            &--gallery {
+                margin-top: 54px;
+                .h-md-400 {
+                    height: 25.2rem !important;
+                }
+            }
+        }
+    }
+}
+
+// Media Queries
+
+$max-width: 767px;
+
+@media (max-width: $max-width) {
+    .project {
+        padding-bottom: 35px;
+        &__inner {
+            margin-top: 35px;
+            &--details {
+                h2 {
+                    @include font($base-font,35px,$font-weight-3,40px);
+                    margin-bottom: 20px;
+                }
+                p {
+                    @include font($base-font,$base-font-size,$font-weight-1,24px);
+                    margin-bottom: 0;
+                }
+            }
+            &--block {
+                margin-top: 20px;
+            }
+            &--steps {
+                margin-top: 15px;
+            }
+            &--gallery {
+                margin-top: 25px;
+                .h-250 {
+                    height: 15.75rem !important;
+                }
+            }
+        }
+    }
+}

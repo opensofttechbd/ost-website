@@ -1,0 +1,69 @@
+.privacy__policy {
+    @include padding(100px,0px,100px,0px);
+    background: #F7F7F7;
+    h2 {
+        @include font($base-font,48px,$font-weight-3,57.6px);
+        margin-bottom: 24px;
+        color: $black-1000;
+    }
+    h3 {
+        @include font($base-font,$base-font-size,$font-weight-1,27.4px);
+        margin-bottom: 40px;
+        color: $black-900;
+    }
+    h4 {
+        @include font($base-font,36px,$font-weight-3,40px);
+        color: $black-1000;
+    }
+    h5 {
+        @include font($base-font,20px,$font-weight-3,28px);
+        color: $black-1000;
+    }    
+    p {
+        @include font($base-font,18px,$font-weight-1,30px);
+    }
+    ul {
+        li {
+            @include font($base-font,17px,$font-weight-1,30px);
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+// Media Queries: 768px - 991px
+
+$min-width-768: 768px;
+$max-width-991: 991px;
+
+@media (min-width: $min-width-768) and (max-width: $max-width-991) {
+    .privacy__policy {
+        @include padding(70px,0px,70px,0px);
+    }
+}
+
+// Media Queries
+
+$max-width: 767px;
+
+@media (max-width: $max-width) {
+    .privacy__policy {
+        @include padding(35px,0px,35px,0px);
+        h2 {
+            @include font($base-font,35px,$font-weight-3,40px);
+            margin-bottom: 16px;            
+        }
+        h3 {
+            @include font($base-font,$base-font-size,$font-weight-1,24px);
+            margin-bottom: 24px;             
+        }
+        h4 {
+            @include font($base-font,30px,$font-weight-3,30px);
+        }
+        p {
+            @include font($base-font,$base-font-size,$font-weight-1,24px);        
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.cta {
+    &__ornament1 {
+        right: -50px;
+        top: -120px;
+    }
+    &__ornament2 {
+        top: 0px;
+        right: 280px;
+    }
+    @include padding(120px,0px,120px,0px);
+    background: linear-gradient(91.82deg, #EEE6FF 0%, #E6F7FF 99.27%);
+    h3 {
+        @include font($base-font,$heading-2,$font-weight-3,$line-height-2);
+        color: $black-1000;
+        margin-bottom: 30px;
+    }
+    p {
+        @include font($base-font,$base-font-size,$font-weight-1,14px);
+    }
+    &__block {
+        z-index: 50;
+        .btn-blue {
+            @include font($base-font,$base-font-size,$font-weight-1,21.76px);
+            text-decoration: none;        
+        }
+    }
+}
+
+// Media Queries: 768px - 991px
+
+$min-width-768: 768px;
+$max-width-991: 991px;
+
+@media (min-width: $min-width-768) and (max-width: $max-width-991) {
+    .cta {
+        @include padding(60px,0px,60px,0px);
+    }
+}
+
+// Media Queries
+
+$max-width: 767px;
+
+@media (max-width: $max-width) {
+    .cta {
+        @include padding(35px,0px,35px,0px);
+        h3 {
+            font-size: 35px;
+            line-height: 40px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 0px;
+            line-height: 24px;
+        }
+    }
+}

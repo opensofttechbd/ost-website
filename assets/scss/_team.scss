@@ -1,0 +1,141 @@
+.team {
+    &__ornament1 {
+        left: 0;
+        bottom: 0;
+    }     
+    @include padding(150px,0px,150px,0px);
+    background-color: $white-100;
+    h3 {
+        @include font($base-font,$heading-5,$font-weight-1,31.2px);
+        color: $black-900;
+        max-width: 850px;
+    }  
+    &__view {
+        .btn-white-no-icon {
+            @include font($base-font,$base-font-size,$font-weight-2,20px);
+            text-decoration: none;        
+        }         
+    }
+    &__block {
+        margin-top: 70px;
+        &--info {
+            @include padding(16px,16px,0px,16px);
+            border-radius: 5px;
+            position: relative;
+            min-height: 305px;
+            overflow: hidden;            
+            h4 {
+                @include font($base-font,20px,$font-weight-3,$line-height-5);
+                color: $black-1000;
+            }
+            h5 {
+                @include font($base-font,$base-font-size,$font-weight-1,$line-height-6);
+                color: $black-900;
+                margin-bottom: 0;
+            }
+            &:hover {
+                cursor: pointer;
+                img {
+                    bottom: -30px;
+                    transition: all 0.3s ease;
+                }
+                .team__block--social {
+                    opacity: 1;
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+        &--social {
+            opacity: 0;
+            ul {
+                li {
+                    i {
+                        width: 20px;
+                        height: 20px;
+                        line-height: 20px;
+                        text-align: center;
+                        font-size: 12px;
+                        border-radius: 2px;
+                    }
+                    a {
+                        .facebook {
+                            background-color: #4460A0;
+                            color: $white-100;
+                        }
+                        .linkedin {
+                            background-color: #0161C3;
+                            color: $white-100;
+                        }
+                        .dribbble {
+                            background-color: #ED508E;
+                            color: $white-100;
+                        }
+                        .twitter {
+                            background-color: #5AA8DF;
+                            color: $white-100;
+                        }
+                    }
+                }
+
+            }
+        }        
+        &--img {
+            img {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0; 
+                transition: all 0.3s ease;           
+            }
+        }
+        &--color1 {
+            background-color: #D1F0F0;
+        }
+        &--color2 {
+            background-color: #F0E4D1;
+        }
+        &--color3 {
+            background-color: #F0D1E5;
+        }
+        &--color4 {
+            background-color: #D1E1F0;
+        }
+    }    
+}
+
+// Media Queries: 768px - 991px
+
+$min-width-768: 768px;
+$max-width-991: 991px;
+
+@media (min-width: $min-width-768) and (max-width: $max-width-991) {
+    .team {
+        @include padding(70px,0px,70px,0px);
+        &__view {
+            margin-top: 20px;
+        }
+        &__block {
+            margin-top: 25px;
+        }
+    }
+}
+
+// Media Queries
+
+$max-width: 767px;
+
+@media (max-width: $max-width) {
+    .team {
+        @include padding(35px,0px,35px,0px);
+        h3 {
+            font-size: $base-font-size;
+            line-height: 24px;
+        }
+        &__view {
+            margin-top: 10px;
+        } 
+        &__block {
+            margin-top: 14px;
+        }        
+    }
+}

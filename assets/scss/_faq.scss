@@ -1,0 +1,126 @@
+.accordion__block {
+    @include padding(150px, 0px, 150px, 0px);
+    .vsa-list {
+        max-width: 100%;
+        border: none;
+        .vsa-item--is-active .vsa-item__heading {
+            border-color: #E0E0E5;
+        }
+        .vsa-item__trigger {
+            @include padding(24px, 0px, 24px, 0px);
+            &:focus,
+            &:hover {
+                background: transparent;
+            }
+        }
+        .vsa-item:not(:last-of-type) {
+            border-bottom: 1px solid #E0E0E5;
+        }
+        .vsa-item__trigger__content {
+            @include font($base-font, 24px, $font-weight-2, 32.4px);
+            color: $black-1000;            
+        }
+        .vsa-item__content {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            @include font($base-font, 18px, $font-weight-1, 30px);
+            color: $black-900 !important;            
+        }
+    }
+
+    .vsa-item {
+        &--is-active {
+            .vsa-item__trigger__icon {
+                .open {
+                    display: none;
+                }
+    
+                .close {
+                    display: block;
+                }
+            }
+        }
+    
+        &__trigger__icon {
+            .open {
+                display: block;
+            }
+    
+            .close {
+                display: none;
+            }
+        }
+    }    
+
+    .accordion {
+        margin-top: 0px !important;
+        border: none !important;
+        border-radius: 0px !important;
+    }
+
+    .faq-wrapper {
+        max-width: none !important;
+    }
+
+    .accordion__item {
+        border-bottom: 1px solid #E0E0E6 !important;
+
+        &:last-child {
+            border-bottom: none !important;
+        }
+    }
+
+    .accordion__title {
+        padding: 24px 0px !important;
+
+        &-text {
+            @include font($base-font, 24px, $font-weight-2, 32.4px);
+            color: $black-1000;
+        }
+    }
+
+    .accordion__toggle-button {
+
+        &::before,
+        &::after {
+            background: $black-900 !important;
+        }
+    }
+
+    .accordion__value {
+        @include padding(0px, 0px, 24px, 0px !important);
+        @include font($base-font, 18px, $font-weight-1, 30px);
+        color: $black-900 !important;
+    }
+}
+
+// Media Queries: 768px - 991px
+
+$min-width-768: 768px;
+$max-width-991: 991px;
+
+@media (min-width: $min-width-768) and (max-width: $max-width-991) {
+    .accordion__block {
+        @include padding(70px, 0px, 70px, 0px);
+    }
+}
+
+// Media Queries
+
+$max-width: 767px;
+
+@media (max-width: $max-width) {
+    .accordion__block {
+        @include padding(35px, 0px, 35px, 0px);
+
+        .accordion__title {
+            &-text {
+                @include font($base-font, 20px, $font-weight-1, 30px);
+            }
+        }
+
+        .accordion__value {
+            @include font($base-font, $base-font-size, $font-weight-1, 30px);
+        }
+    }
+}

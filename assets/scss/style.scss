@@ -1,0 +1,116 @@
+@import "mixin";
+@import "color";
+@import "typography";
+@import "button";
+@import "nav";
+@import "header";
+@import "introduction";
+@import "about";
+@import "gallery";
+@import "statistics";
+@import "weprovide";
+@import "project";
+@import "projectsingle";
+@import "whybitsware";
+@import "whychoose";
+@import "workprocess";
+@import "team";
+@import "technology";
+@import "testimonial";
+@import "faq";
+@import "cta";
+@import "privacypolicy";
+@import "termsconditions";
+@import "contact";
+@import "error";
+@import "footer";
+
+body {
+	p {
+		@include font($base-font,18px,$font-weight-1,30px);
+		color: $black-900;
+	}
+}
+
+// ===== Scrollbar width ===== //
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+// ===== Scrollbar track ===== //
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+// ===== Scrollbar handle ===== //
+::-webkit-scrollbar-thumb {
+    background: #4583E5;
+}
+  
+// ===== Scrollbar handle on hover ==== //
+::-webkit-scrollbar-thumb:hover {
+    background: #0052D4;
+}
+
+// ==== Animation ==== //
+.bounce {
+    -webkit-animation: bounce 3s ease-in-out infinite;
+    animation: bounce 3s ease-in-out infinite;
+}
+
+@keyframes bounce {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.pulse {
+    animation: pulse 1s infinite ease-in-out alternate;
+  }
+  @keyframes pulse {
+    from { transform: scale(0.8); }
+    to { transform: scale(1.2); }
+  }
+
+  .float {
+    -webkit-animation: float 3s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatex(0px);
+	}
+	50% {
+		transform: translatex(-20px);
+	}
+	100% {
+		transform: translatex(0px);
+	}
+}
+
+// ==== Dropdown Menu Transition ==== //
+.fade-enter-active, .fade-leave-active {
+	transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+	opacity: 0;
+}
+
+// ===== Mobile Menu transition ===== //
+.slide-fade-enter-active {
+    transition: all .3s ease;
+}
+.slide-fade-leave-active {
+    transition: all .3s ease;
+}
+.slide-fade-enter, .slide-fade-leave-to {
+    transform: translateX(10px);
+    opacity: 0;
+}

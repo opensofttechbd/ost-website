@@ -1,0 +1,18 @@
+.error {
+    h1 {
+        @include font($base-font,75px,$font-weight-4,0px);
+        color: $black-1000;
+        @include margin(30px,0px,60px,0px);
+    }
+    h2 {
+        @include font($base-font,18px,$font-weight-1,30px);
+        color: $black-900;
+        margin-bottom: 30px;
+    }
+    &__btn {
+        .btn-blue {
+            @include font($base-font,$base-font-size,$font-weight-1,21.76px);
+            text-decoration: none;        
+        }         
+    }
+}
