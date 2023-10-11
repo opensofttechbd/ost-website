@@ -1,16 +1,16 @@
 <template>
-    <div class="whybitsware position-relative">
-        <img :src="ornament_5" alt="Ornaments" class="position-absolute whybitsware__ornament1 d-none d-xxl-block bounce" width="74" height="97"/>
-        <img :src="ornament_6" alt="Ornaments" class="position-absolute whybitsware__ornament2 d-none d-xxl-block" width="189" height="100"/>
-        <img :src="connect" alt="Ornaments" class="position-absolute whybitsware__ornament3 d-none d-xxl-block" width="360" height="360"/>
-        <img :src="ornament_4" alt="Ornaments" class="position-absolute whybitsware__ornament4 d-none d-xxl-block float" width="97" height="74"/>
-        <img :src="plus" alt="Ornaments" class="position-absolute whybitsware__ornament5 d-none d-xxl-block pulse"  width="20" height="20"/>
-        <img :src="round" alt="Ornaments" class="position-absolute whybitsware__ornament6 d-none d-xxl-block float" width="15" height="15"/>        
+    <div class="whyopensofttech position-relative">
+        <img :src="ornament_5" alt="Ornaments" class="position-absolute whyopensofttech__ornament1 d-none d-xxl-block bounce" width="74" height="97"/>
+        <img :src="ornament_6" alt="Ornaments" class="position-absolute whyopensofttech__ornament2 d-none d-xxl-block" width="189" height="100"/>
+        <img :src="connect" alt="Ornaments" class="position-absolute whyopensofttech__ornament3 d-none d-xxl-block" width="360" height="360"/>
+        <img :src="ornament_4" alt="Ornaments" class="position-absolute whyopensofttech__ornament4 d-none d-xxl-block float" width="97" height="74"/>
+        <img :src="plus" alt="Ornaments" class="position-absolute whyopensofttech__ornament5 d-none d-xxl-block pulse"  width="20" height="20"/>
+        <img :src="round" alt="Ornaments" class="position-absolute whyopensofttech__ornament6 d-none d-xxl-block float" width="15" height="15"/>        
                     
         <WhyChoose/>
         <div class="container">
             <div class="row">
-                <div class="whybitsware__line">
+                <div class="whyopensofttech__line">
                     <img src="~/assets/svg/line.svg" alt="Line" class="img-fluid d-none d-xl-block" width="1296" height="1"/>
                 </div>
             </div>

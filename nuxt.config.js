@@ -20,7 +20,7 @@ export default async () => {
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
       titleTemplate: '%s',
-      title: 'Bitsware',
+      title: 'OpenSoftTech',
       htmlAttrs: {
         lang: 'en-US'
       },
@@ -87,11 +87,11 @@ export default async () => {
     robots: {
       UserAgent: "*",
       Disallow: "/_nuxt/",
-      Sitemap: "https://bitsware.org/sitemap.xml"
+      Sitemap: "https://opensofttech.org/sitemap.xml"
     },
 
     sitemap: {
-      hostname: 'https://bitsware.org',
+      hostname: 'https://opensofttech.org',
       gzip: true,
     },
     
@@ -100,7 +100,7 @@ export default async () => {
     },
     
     env: {
-      projectUrl: 'https://www.bitsware.org/'
+      projectUrl: 'https://www.opensofttech.org/'
     },    
   }
 }

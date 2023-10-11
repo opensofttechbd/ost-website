@@ -26,7 +26,7 @@
                                     <img src="~/assets/images/mail-icon.png" alt="Mail us">
                                     <h3 class="mt-3">Drop us a line</h3> 
                                     <div class="mt-2">
-                                        <a href="mailto:info@bitsware.org">info@bitsware.org</a>     
+                                        <a href="mailto:info@opensofttech.org">info@opensofttech.org</a>     
                                     </div>                      
                                 </div>                              
                             </div>
@@ -137,7 +137,7 @@ import Nav from '~/components/Nav';
 import Footer from '~/components/Footer';
 import headlineFontStyle from '~/assets/svg/contact-ornament.svg';
 import attachement from '~/assets/svg/attachment.svg';
-const API_GATEWAY_URL = "https://api.bitsware.org/contact-form"
+const API_GATEWAY_URL = "https://api.opensofttech.org/contact-form"
 
 
 export default {
@@ -157,37 +157,37 @@ export default {
                     name: 'Facebook',
                     social: 'fa fa-facebook',
                     socialClass: 'facebook',
-                    link: 'https://www.facebook.com/bitswarellc'
+                    link: 'https://www.facebook.com/opensofttechllc'
                 },
                 {
                     name: 'Twitter',
                     social: 'fa fa-twitter',
                     socialClass: 'twitter',
-                    link: 'https://twitter.com/_bitsware'
+                    link: 'https://twitter.com/_opensofttech'
                 },
                 {
                     name: 'Pinterest',
                     social: 'fa fa-pinterest',
                     socialClass: 'pinterest',
-                    link: 'https://www.pinterest.com/bitsware'
+                    link: 'https://www.pinterest.com/opensofttech'
                 },
                 {
                     name: 'Instagram',
                     social: 'fa fa-instagram',
                     socialClass: 'instagram',
-                    link: 'https://www.instagram.com/bitswarellc'
+                    link: 'https://www.instagram.com/opensofttechllc'
                 },
                 {
                     name: 'Youtube',
                     social: 'fa fa-youtube-play',
                     socialClass: 'youtube',
-                    link: 'https://www.youtube.com/@bitsware'
+                    link: 'https://www.youtube.com/@opensofttech'
                 },
                 {
                     name: 'Linkedin',
                     social: 'fa fa-linkedin',
                     socialClass: 'linkedin',
-                    link: 'https://www.linkedin.com/company/bitswarellc'
+                    link: 'https://www.linkedin.com/company/opensofttechllc'
                 }  
             ],
             formData: {

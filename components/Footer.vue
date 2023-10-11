@@ -138,37 +138,37 @@ export default {
                     name: 'Facebook',
                     social: 'fa fa-facebook',
                     socialClass: 'facebook',
-                    link: 'https://www.facebook.com/bitswarellc'
+                    link: 'https://www.facebook.com/opensofttechllc'
                 },
                 {
                     name: 'Twitter',
                     social: 'fa fa-twitter',
                     socialClass: 'twitter',
-                    link: 'https://twitter.com/_bitsware'
+                    link: 'https://twitter.com/_opensofttech'
                 },
                 {
                     name: 'Pinterest',
                     social: 'fa fa-pinterest',
                     socialClass: 'pinterest',
-                    link: 'https://www.pinterest.com/bitsware'
+                    link: 'https://www.pinterest.com/opensofttech'
                 },
                 {
                     name: 'Instagram',
                     social: 'fa fa-instagram',
                     socialClass: 'instagram',
-                    link: 'https://www.instagram.com/bitswarellc'
+                    link: 'https://www.instagram.com/opensofttechllc'
                 },
                 {
                     name: 'Youtube',
                     social: 'fa fa-youtube-play',
                     socialClass: 'youtube',
-                    link: 'https://www.youtube.com/@bitsware'
+                    link: 'https://www.youtube.com/@opensofttech'
                 },
                 {
                     name: 'Linkedin',
                     social: 'fa fa-linkedin',
                     socialClass: 'linkedin',
-                    link: 'https://www.linkedin.com/company/bitswarellc'
+                    link: 'https://www.linkedin.com/company/opensofttechllc'
                 }                                
             ]            
         }
