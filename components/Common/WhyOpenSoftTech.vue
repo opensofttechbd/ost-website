@@ -31,7 +31,7 @@ import ornament4 from '~/assets/svg/ornament-4.svg';
 import round02 from '~/assets/svg/round02.svg';
 
 export default {
-    name: 'WhyBitsware',
+    name: 'WhyOpenSoftTech',
     components: {
         WhyChoose,
         WorkProcess

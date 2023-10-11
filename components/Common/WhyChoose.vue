@@ -5,7 +5,7 @@
                 <div class="col-lg-8">
                     <subheadline
                         title="Why Choose"
-                        titleStyle="Bitsware"
+                        titleStyle="OpenSoftTech"
                         :ornaments="subheaderFontStyle"
                     ></subheadline>
                     <h3>Our team comprises multidisciplinary digital product experts: experienced product managers, designers, developers, business analysts, UI/ UX Designers and marketing experts.</h3>                   

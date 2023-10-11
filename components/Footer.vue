@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer__copyright text-center">
-                        <p>&copy; {{currentYear}} All Rights Reserved. Developed By Bitsware.</p>
+                        <p>&copy; {{currentYear}} All Rights Reserved. Developed By OpenSoftTech.</p>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@
                         </span> Team
                     </h1>
                     <!-- <h3>First &amp; Reasonable Price</h3> -->
-                    <p>Bitsware is a leading offshore team provider through which you can access the world's top 10 percentile talents and build your dream tech team more efficiently.</p>
+                    <p>OpenSoftTech is a leading offshore team provider through which you can access the world's top 10 percentile talents and build your dream tech team more efficiently.</p>
                     <NuxtLink to="/projects" class="btn-blue">
                         <div class="d-flex align-items-center">
                             View Project<img :src="right_arrow" alt="Arrow" width="16" height="16">

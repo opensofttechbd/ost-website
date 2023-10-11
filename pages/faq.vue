@@ -86,22 +86,22 @@ export default {
         {
           title: "What after-sales service do you offer?",
           value:
-            "We fully support any website we develop or design and are always available whenever you encounter any problems or require new enhancements. Bitsware also offers website maintenance and quality assurance.",
+            "We fully support any website we develop or design and are always available whenever you encounter any problems or require new enhancements. OpenSoftTech also offers website maintenance and quality assurance.",
         },
         {
           title: "Do you guarantee that my site will always be available?",
           value:
-            "Bitsware web development service has been up 100% of the time since we started. We have the necessary backups in place to deal with the issue quickly whenever our servers have any problems in the future.",
+            "OpenSoftTech web development service has been up 100% of the time since we started. We have the necessary backups in place to deal with the issue quickly whenever our servers have any problems in the future.",
         },
         {
           title: "Do you redesign existing websites?",
           value:
-            "Yes. We can redesign existing sites and retain your organization's style or give you a completely new look. Bitsware also can provide a free website evaluation. We will show you how your site can take advantage of the latest Web technologies.",
+            "Yes. We can redesign existing sites and retain your organization's style or give you a completely new look. OpenSoftTech also can provide a free website evaluation. We will show you how your site can take advantage of the latest Web technologies.",
         },
         {
-          title: "Why should I choose Bitsware for my website?",
+          title: "Why should I choose OpenSoftTech for my website?",
           value:
-            "Bitsware is an established web development company that has been delivering projects at all levels of complexity to clients across the United States. Our clients range from small businesses to large enterprises. We have developed a sophisticated style and a deep understanding of website requirements since our founding. So you should choose Bitsware for your website.",
+            "OpenSoftTech is an established web development company that has been delivering projects at all levels of complexity to clients across the United States. Our clients range from small businesses to large enterprises. We have developed a sophisticated style and a deep understanding of website requirements since our founding. So you should choose OpenSoftTech for your website.",
         },
       ],
     };

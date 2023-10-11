@@ -4,7 +4,7 @@
     <Header/>
     <WeProvide/>
     <Projects/>  
-    <WhyBitsware/>
+    <WhyOpenSoftTech/>
     <Technology/>
     <Cta/>
     <Footer/>
@@ -17,7 +17,7 @@ import Nav from '~/components/Nav';
 import Header from '~/components/Header';
 import WeProvide from '~/components/Common/WeProvide';
 import Projects from '~/components/Common/Projects';
-import WhyBitsware from '~/components/Common/WhyBitsware';
+import WhyOpenSoftTech from '~/components/Common/WhyOpenSoftTech';
 import Technology from '~/components/Common/Technology';
 import Cta from '~/components/Common/Cta';
 import Footer from '~/components/Footer';
@@ -29,7 +29,7 @@ export default {
     Header,
     WeProvide,
     Projects,
-    WhyBitsware,
+    WhyOpenSoftTech,
     Technology,
     Cta,
     Footer

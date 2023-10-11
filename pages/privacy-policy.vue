@@ -7,14 +7,14 @@
                     <div class="col-lg-12">
                         <h2>Privacy policy</h2>
                         <h3>Last Updated - Oct 12, 2022</h3>
-                        <p>The following Privacy Policy (the "Policy") outlines the policies and procedures Bitsware, LLC uses in association with the collection, use, and disclosure of your information on the Videotc.com and videotimecapsule.com websites (“Website”) and the services, features, content, or applications Videotc offers (collectively, with the Website, referred to as “Services”). Your information may be obtained from multiple sources including information you submit through the Website or to Videotc and/or information obtained from various third parties and/or services.</p>
-                        <p>Bitsware owns and operates the Website and is committed to your privacy. Bitsware demonstrates this commitment by posting this privacy policy ("Privacy Policy") to inform you of:</p>
+                        <p>The following Privacy Policy (the "Policy") outlines the policies and procedures OpenSoftTech, LLC uses in association with the collection, use, and disclosure of your information on the Videotc.com and videotimecapsule.com websites (“Website”) and the services, features, content, or applications Videotc offers (collectively, with the Website, referred to as “Services”). Your information may be obtained from multiple sources including information you submit through the Website or to Videotc and/or information obtained from various third parties and/or services.</p>
+                        <p>OpenSoftTech owns and operates the Website and is committed to your privacy. OpenSoftTech demonstrates this commitment by posting this privacy policy ("Privacy Policy") to inform you of:</p>
                         <ul>
                             <li>The Personal Data Videotc collects from you through the Website and Services;</li>
-                            <li>How Bitsware uses the information;</li>
-                            <li>With whom Bitsware shares the information and why;</li>
+                            <li>How OpenSoftTech uses the information;</li>
+                            <li>With whom OpenSoftTech shares the information and why;</li>
                             <li>Your choices regarding collection, use, and distribution of the information;</li>
-                            <li>The security procedures in place to protect the information under Bitsware control;</li>
+                            <li>The security procedures in place to protect the information under OpenSoftTech control;</li>
                             <li>How you can correct any inaccuracies in the information;</li>
                             <li>Procedures relating to unauthorized usage of the Website; and</li>
                             <li>Changes to this Privacy Policy.</li>

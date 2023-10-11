@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3>How to Hire Bitsware</h3>
+                    <h3>How to Hire OpenSoftTech</h3>
                 </div>
             </div>
             <div class="row">

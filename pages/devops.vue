@@ -14,7 +14,7 @@
                     <div class="col-lg-12">
                         <div class="introduction__content">
                             <h3>96% of the respondents, automating security, and compliance operations, a core DevOps principle, said that it did benefit their business.</h3>
-                            <p>At Bitsware, we specialize in providing cutting-edge DevOps services to empower organizations in their digital transformation journey. With our expertise, we help businesses achieve faster software delivery, improved collaboration, and increased efficiency through the seamless integration of development and operations. </p>
+                            <p>At OpenSoftTech, we specialize in providing cutting-edge DevOps services to empower organizations in their digital transformation journey. With our expertise, we help businesses achieve faster software delivery, improved collaboration, and increased efficiency through the seamless integration of development and operations. </p>
                             <h3>Our DevOps Approach:</h3>
                             <p>At the core of our DevOps approach is the belief that collaboration and automation are key drivers of success in today's fast-paced digital landscape. We work closely with our clients to understand their unique needs and design customized DevOps solutions that align with their business goals.</p>
                             <h3>Our Services:</h3>
@@ -34,7 +34,7 @@
                                 <li><strong>Cost-Effectiveness:</strong> We understand the importance of delivering value for your investment. Our services are designed to be cost-effective, providing you with efficient and optimized solutions that deliver tangible business benefits. We work within your budget constraints while ensuring the highest standards of quality.</li>
                                 <li><strong>Reliable Support and Maintenance:</strong> Our commitment to your success extends beyond project completion. We provide ongoing support and maintenance services to ensure the continued performance and stability of your DevOps infrastructure. Our dedicated support team is available to address any issues or concerns promptly, minimizing downtime and disruptions.</li>
                             </ul>
-                            <p>With Bitsware, you can unlock the full potential of DevOps and drive your digital transformation initiatives with confidence. We are dedicated to empowering your organization with streamlined processes, enhanced collaboration, and accelerated innovation. Contact us today to embark on your DevOps journey with a trusted partner by your side.</p>
+                            <p>With OpenSoftTech, you can unlock the full potential of DevOps and drive your digital transformation initiatives with confidence. We are dedicated to empowering your organization with streamlined processes, enhanced collaboration, and accelerated innovation. Contact us today to embark on your DevOps journey with a trusted partner by your side.</p>
                         </div>
                     </div>
                 </div>
