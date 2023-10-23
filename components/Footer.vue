@@ -7,7 +7,9 @@
                 <div class="row">
                 <div class="col-lg-3">
                     <div class="footer__block">
-                        <img src="~/assets/svg/footer-logo.svg" alt="Logo" width="161" height="42" class="img-fluid">
+                        <nuxt-link to="/">
+                        <img src="~/assets/svg/footer-logo.svg" alt="Logo" width="161" height="42" class="img-fluid"/>
+                        </nuxt-link>
                         <div class="footer__block--intro">
                             <p>A leading IT company dedicated to providing innovative solutions and exceptional services. With a strong focus on leveraging technology to drive business growth, we empower our clients to stay ahead in today's digital landscape.</p>
                             <div class="footer__socials">
@@ -138,7 +140,7 @@ export default {
                     name: 'Facebook',
                     social: 'fa fa-facebook',
                     socialClass: 'facebook',
-                    link: 'https://www.facebook.com/opensofttechllc'
+                    link: 'https://www.facebook.com/100088930996722'
                 },
                 {
                     name: 'Twitter',
@@ -156,7 +158,7 @@ export default {
                     name: 'Instagram',
                     social: 'fa fa-instagram',
                     socialClass: 'instagram',
-                    link: 'https://www.instagram.com/opensofttechllc'
+                    link: 'https://www.instagram.com/opensofttech'
                 },
                 {
                     name: 'Youtube',
@@ -168,7 +170,7 @@ export default {
                     name: 'Linkedin',
                     social: 'fa fa-linkedin',
                     socialClass: 'linkedin',
-                    link: 'https://www.linkedin.com/company/opensofttechllc'
+                    link: 'https://www.linkedin.com/company/opensofttech'
                 }                                
             ]            
         }
